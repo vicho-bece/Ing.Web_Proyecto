@@ -1,0 +1,30 @@
+<section>
+
+    <form id="registro_validar" novalidate>
+        <h1>Formulario De Registro</h1>
+        <ul>
+            <li><label for="nombre">Nombre<span>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</span></label></li>
+            <li><input type="text"  id="nombre" name="nombre" placeholder="Ingrese su nombre(s)" ></li><br>
+            
+            <li><label for="apellido">Apellido<span>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</span></label></li>
+            <li><input type="text"  id="apellido" name="apellido" placeholder="Ingrese su apellido(s)" ></li><br>
+            
+            <li><label for="correo">Correo electronico</label></li>
+            <li><input type="email"  id="correo" name="correo" placeholder="Ingrese su correo" ></li><br>
+            
+            <li><label for="rut">RUT<span>(Sin puntos con guion y el ultimo digito admite la 'k' o 'K')</span> </label></li>
+            <li><input type="text"  id="rut" name="rut" placeholder="Ej: 12345678-9" ></li><br>
+            
+            <li><label for="pass">Nueva Contraseña <span>(Caracteres obligatorios [A-Z], [a-z] y [0-9], y minimo 8 caracteres)</span> </label></li>
+            <li><input type="password"  id="pass" name="pass" placeholder="Ingrese una contraseña" ></li><br>
+            
+            <li><label>Confirmar Contraseña</label></li>
+            <li><input type="password" id="pass_confirm" name="pass_confirm" placeholder="Vuelve a ingresar la contraseña" ><span id="compare"></span></li><br>
+            
+            <li><button type="submit">Registrarse</button> <span id="span"></span></li>
+            <li><p></p></li>
+        </ul>
+    </form>
+
+</section>
+

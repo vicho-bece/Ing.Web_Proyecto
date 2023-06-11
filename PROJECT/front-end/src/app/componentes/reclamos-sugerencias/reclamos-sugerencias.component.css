@@ -1,0 +1,73 @@
+form {
+  width: 60%;
+  height: 100%;
+  border: 3px solid grey;
+  margin: 1% 0% 1% 20%;
+  background-color: rgb(246, 208, 137);
+}
+form h1 {
+  text-align: center;
+  border-bottom: 3px solid grey;
+}
+form ul {
+  list-style: none;
+}
+form ul label {
+  font-size: 30px;
+}
+form ul label.error {
+  color: red;
+  display: block;
+}
+form ul input {
+  border: 2px solid darkgrey;
+  color: white;
+  background-color: black;
+  width: 97%;
+  font-size: 25px;
+  height: 45px;
+  text-indent: 1em;
+  border-radius: 5px;
+  margin: 0.5% 0% 1% 0%;
+}
+form ul input.error {
+  border: 3px dashed red;
+  color: red;
+}
+form ul input[type=radio] {
+  height: 25px;
+  width: 25px;
+}
+form ul input.error[type=radio] {
+  color: red;
+}
+form ul textarea {
+  border: 3px solid darkgrey;
+  color: white;
+  background-color: black;
+  width: 97%;
+  font-size: 25px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 0.5% 0% 1% 0%;
+  padding: 1px;
+  white-space: normal;
+}
+form ul textarea.error {
+  border: 3px dashed red;
+}
+form ul button {
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 1% 1% 1% 1%;
+}
+form ul button:hover {
+  background-color: dodgerblue;
+}
+form ul span {
+  font-size: 25px;
+  margin-left: 10px;
+}/*# sourceMappingURL=reclamos-sugerencias.component.css.map */

@@ -1,0 +1,43 @@
+section form {
+  width: 60%;
+  border: 3px solid grey;
+  margin: 1% 0% 1% 20%;
+  background-color: rgb(246, 208, 137);
+}
+section form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 3px solid grey;
+}
+section form ul {
+  list-style: none;
+}
+section form ul label {
+  font-size: 30px;
+}
+section form ul input {
+  border: 2px solid darkgrey;
+  color: white;
+  background-color: black;
+  width: 97%;
+  font-size: 25px;
+  height: 45px;
+  text-indent: 1em;
+  border-radius: 5px;
+  margin: 0.5% 0% 1% 0%;
+}
+section form ul input.error {
+  border: 3px dashed red;
+  color: red;
+}
+section form ul button {
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 1%;
+}
+section form ul button:hover {
+  background-color: dodgerblue;
+}/*# sourceMappingURL=registro.component.css.map */

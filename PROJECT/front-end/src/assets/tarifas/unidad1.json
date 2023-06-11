@@ -1,0 +1,16 @@
+[
+ {
+    "linea":"101",
+    "directo":"760",
+    "local":"380",
+    "cerro":"-",
+    "estudiante":"250"
+ },
+ {
+   "linea":"102",
+    "directo":"760",
+    "local":"380",
+    "cerro":"-",
+    "estudiante":"250"
+ }
+]

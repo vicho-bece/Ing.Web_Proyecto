@@ -1,0 +1,45 @@
+<section>
+    <div>
+        <form id="tarifas" >
+            <h1>Informacion de las Tarifas por Unidades</h1>
+            <ul>
+                <li>
+                    <label for="unidad">Escoja una Unidad:</label>
+                </li>
+                <li>
+                    <select name="unidades" id="unidad" (change)="valorSelect($event)">
+                        <option>Seleccione una unidad-</option>
+                        <option value="unidad1">Unidad 1</option>
+                        <option value="unidad2">Unidad 2</option>
+                        <option value="unidad3">Unidad 3</option>
+                        <option value="unidad4">Unidad 4</option>
+                        <option value="unidad5">Unidad 5</option>
+                        <option value="unidad6">Unidad 6</option>
+                    </select>
+                </li>
+            </ul>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <td>Lineas</td>
+                    <td>Directo</td>
+                    <td>Local</td>
+                    <td>Cerro</td>
+                    <td>Estudiante</td>
+                </tr>
+            </thead>
+            <tbody  >
+                <tr *ngFor="let dato of datos; let par = even; let impar = odd" [ngClass]="{'par' : par, 'impar' : impar}">
+                    <td>{{dato.linea}}</td>
+                    <td>{{dato.directo}}</td>
+                    <td>{{dato.local}}</td>
+                    <td>{{dato.cerro}}</td>
+                    <td>{{dato.estudiante}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</section>
+
