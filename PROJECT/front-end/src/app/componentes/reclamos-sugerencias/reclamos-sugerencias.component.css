@@ -1,25 +1,24 @@
-form {
+section form {
   width: 60%;
   height: 100%;
   border: 3px solid grey;
   margin: 1% 0% 1% 20%;
   background-color: rgb(246, 208, 137);
 }
-form h1 {
+section form h1 {
   text-align: center;
   border-bottom: 3px solid grey;
 }
-form ul {
+section form ul {
   list-style: none;
 }
-form ul label {
-  font-size: 30px;
+section form label {
+  font-size: 50px;
 }
-form ul label.error {
+section form label.error {
   color: red;
-  display: block;
 }
-form ul input {
+section form input {
   border: 2px solid darkgrey;
   color: white;
   background-color: black;
@@ -30,18 +29,22 @@ form ul input {
   border-radius: 5px;
   margin: 0.5% 0% 1% 0%;
 }
-form ul input.error {
+section form input.error {
   border: 3px dashed red;
   color: red;
 }
-form ul input[type=radio] {
+section form input.valid {
+  border: 3px dashed green;
+  color: green;
+}
+section form input[type=radio] {
   height: 25px;
   width: 25px;
 }
-form ul input.error[type=radio] {
+section form input.error[type=radio] {
   color: red;
 }
-form ul textarea {
+section form textarea {
   border: 3px solid darkgrey;
   color: white;
   background-color: black;
@@ -53,10 +56,15 @@ form ul textarea {
   padding: 1px;
   white-space: normal;
 }
-form ul textarea.error {
+section form textarea.error {
   border: 3px dashed red;
+  color: red;
 }
-form ul button {
+section form textarea.valid {
+  border: 3px dashed green;
+  color: green;
+}
+section form button {
   font-size: 25px;
   color: white;
   border: none;
@@ -64,10 +72,13 @@ form ul button {
   background-color: grey;
   padding: 1% 1% 1% 1%;
 }
-form ul button:hover {
+section form button:hover {
   background-color: dodgerblue;
 }
-form ul span {
+section form h5 {
+  font-size: 15px;
+}
+section form span {
   font-size: 25px;
   margin-left: 10px;
 }/*# sourceMappingURL=reclamos-sugerencias.component.css.map */

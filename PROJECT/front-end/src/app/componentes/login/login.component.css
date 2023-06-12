@@ -22,10 +22,6 @@ section form ul li {
 section form ul li label {
   font-size: 30px;
 }
-section form ul li label.error {
-  color: red;
-  display: block;
-}
 section form ul li input {
   height: 1%;
   font-size: 25px;
@@ -33,6 +29,11 @@ section form ul li input {
   color: white;
   background-color: black;
   width: 95%;
+}
+section form ul li label.error {
+  color: red;
+  font-size: 100px;
+  display: block;
 }
 section form ul li input.error {
   border: 3px dashed red;

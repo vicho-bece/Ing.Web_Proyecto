@@ -27,7 +27,8 @@ $(document).ready(function(){
                 passFormato: true
             },
             pass_confirm:{
-                required: true
+                required: true,
+                samePass: true
             },
         },
         messages: {
@@ -57,8 +58,12 @@ $(document).ready(function(){
                 passFormato: "El formato de la contrasena no es correcto"
             },
             pass_confirm:{
-                required: "Favor de volver a ingresar la contrasena"
+                required: "Favor de volver a ingresar la contrasena",
+                samePass: "Ambas contrasenas no coinciden, favor de revisarlas..."
             }
+        },
+        submitHandler: function(form){
+            $(location).prop('href', 'resultados');
         }
     });
     $.validator.addMethod("strCheck",function(value, element){
@@ -72,4 +77,11 @@ $(document).ready(function(){
         if(value.search(" ") > 0){return false;}
         return true;
     });
+    $.validator.addMethod("samePass", () => {
+        let pass1 = document.getElementById("pass").value;
+        let pass2 = document.getElementById("pass_confirm").value;
+    
+        if(pass1 != pass2){return false;}
+        return true;
+    })
 });

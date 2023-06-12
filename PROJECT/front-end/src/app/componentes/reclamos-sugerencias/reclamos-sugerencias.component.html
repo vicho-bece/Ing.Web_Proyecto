@@ -6,20 +6,24 @@
             <li><label for="asunto">Asunto</label></li>
             <li><input type="text" id="asunto" name="asunto" placeholder="Ingrese el tema que se va a tratar"></li>
 
-            <li><label for="nombre">Nombre<span>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</span></label></li>
+            <li><label for="nombre">Nombre<h5>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</h5></label></li>
             <li><input type="text"  id="nombre" name="nombre" placeholder="Ingrese su nombre(s)" ></li><br>
             
-            <li><label for="apellido">Apellido<span>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</span></label></li>
+            <li><label for="apellido">Apellido<h5>(Caracteres admitidos [A-Z] y [a-z] c/s espacios y maximo 30 caracteres)</h5></label></li>
             <li><input type="text"  id="apellido" name="apellido" placeholder="Ingrese su apellido(s)" ></li><br>
             
             <li><label for="correo">Correo electronico</label></li>
             <li><input type="email"  id="correo" name="correo" placeholder="Ingrese su correo" ></li><br>
 
-            <li><label for="Tipo">Tipo de Tramite</label></li>
-            <li>Sugerencia<input type="radio" name="tipo" value="sugerencia"></li>
-            <li>Reclamo<input type="radio" name="tipo" value="reclamo"></li> 
 
-            <li><label for="descripcion">Descripcion<span>(No más de 400 caracteres)</span></label></li>
+            
+            
+            <li><label>Tipo de Tramite</label></li>
+            <li class="tipo">Sugerencia<input type="radio" class="form-check-input" name="tipo" value="sugerencia"></li>
+            <li class="tipo">Reclamo<input type="radio" class="form-check-input" name="tipo" value="reclamo"></li> 
+           
+
+            <li><label for="descripcion">Descripcion<h5>(No más de 400 caracteres)</h5></label></li>
             <li><textarea name="descripcion" id="descripcion"></textarea></li>
             
             <li><button type="submit">Enviar</button> <span id="span"></span></li>

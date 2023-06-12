@@ -8,6 +8,7 @@ import { ReclamosSugerenciasComponent } from './componentes/reclamos-sugerencias
 import { DatosBusConductorComponent } from './componentes/datos-bus-conductor/datos-bus-conductor.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { ResultadosComponent } from './componentes/resultados/resultados.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'tarifa', component:TarifasComponent},
   {path: 'encontrarBus', component:EncontrarBusComponent},
   {path: 'reclamos_sugerencias', component:ReclamosSugerenciasComponent},
-  {path: 'datos', component:DatosBusConductorComponent}
+  {path: 'datos', component:DatosBusConductorComponent},
+  {path: 'resultados', component:ResultadosComponent}
 ];
 
 @NgModule({

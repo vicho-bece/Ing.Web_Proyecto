@@ -30,6 +30,10 @@ section form ul input.error {
   border: 3px dashed red;
   color: red;
 }
+section form ul input.valid {
+  border: 3px dashed green;
+  color: green;
+}
 section form ul button {
   font-size: 25px;
   color: white;
