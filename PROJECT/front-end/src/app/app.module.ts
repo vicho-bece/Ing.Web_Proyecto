@@ -18,6 +18,7 @@ import { EncontrarBusComponent } from './componentes/encontrar-bus/encontrar-bus
 import { DatosBusConductorComponent } from './componentes/datos-bus-conductor/datos-bus-conductor.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
 import { ResultadosComponent } from './componentes/resultados/resultados.component';
+import { EditarDatosComponent } from './componentes/editar-datos/editar-datos.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ResultadosComponent } from './componentes/resultados/resultados.compone
     DatosBusConductorComponent,
     RegistroComponent,
     ResultadosComponent,
+    EditarDatosComponent,
   ],
   imports: [
     BrowserModule,

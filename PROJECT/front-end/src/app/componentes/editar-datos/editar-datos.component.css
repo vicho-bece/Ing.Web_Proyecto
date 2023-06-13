@@ -1,0 +1,40 @@
+section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+section ul {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 40%;
+}
+section ul li {
+  border: 1px solid;
+  font-size: 40px;
+  background-color: white;
+  height: 50%;
+  padding: 2% 0% 2% 0%;
+  width: 30%;
+  text-align: center;
+}
+section ul li:hover {
+  background-color: gold;
+}
+section ul.botones {
+  margin-left: 75%;
+}
+section ul.botones a {
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  width: 50%;
+  background-color: grey;
+  color: white;
+  padding: 1%;
+  margin: 2%;
+}
+section ul.botones a:hover {
+  background-color: green;
+}
+section ul.botones a:hover.cancel {
+  background-color: red;
+}/*# sourceMappingURL=editar-datos.component.css.map */

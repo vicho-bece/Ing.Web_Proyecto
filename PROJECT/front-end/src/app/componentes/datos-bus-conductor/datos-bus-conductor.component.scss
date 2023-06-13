@@ -1,0 +1,35 @@
+section{
+    a{
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 25px;
+        width: 50%;
+        background-color: grey;
+        color: white;
+        padding: 1%;
+        margin-left: 88%;
+        &:hover{
+            background-color: red;
+        }
+    }
+    ul{
+        list-style: none;
+        font-size: 30px;
+    }
+    table{
+        margin: 5% 5% 5% 5%;
+        border: 1px solid;
+        thead{
+            background-color: lightblue;
+        }
+        td, th{
+            border: 1px solid;
+            text-align: center;
+            padding: 1%;
+            width: 1%;
+            font-size: 20px;
+        }
+    }
+
+
+}

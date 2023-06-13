@@ -1,0 +1,43 @@
+section{
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    ul{
+        list-style: none;
+        text-decoration: none;
+        margin-left: 40%;
+        li{
+            border: 1px solid;
+            font-size: 40px;
+            background-color: white;
+            height: 50%;
+            padding: 2% 0% 2% 0%;
+            width: 30%;
+            text-align: center;
+            &:hover{
+                background-color: gold;
+            }
+        }
+    }
+    ul.botones{
+        margin-left: 75%;
+        a{
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 25px;
+            width: 50%;
+            background-color: grey;
+            color: white;
+            padding: 1%;
+            margin: 2%;
+            &:hover{
+                background-color: green;
+            }
+            &:hover.cancel{
+                background-color: red;
+            }
+        }
+    }
+    
+}
